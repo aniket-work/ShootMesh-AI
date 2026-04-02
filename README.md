@@ -4,7 +4,7 @@
 
 ShootMesh-AI is a small, transparent Python experiment that models how specialized “department” agents can propose competing actions when a staged shooting day hits unexpected incidents, how a coordinator merges those proposals with an explicit priority policy, and how a ledger records the resulting sequence of decisions. The repository is a personal proof of concept: it is not on-set software, not production guidance, and not affiliated with any studio or employer.
 
-![Title diagram](https://raw.githubusercontent.com/aniket-work/ShootMesh-AI/main/images/title_diagram.png)
+![Title diagram](https://raw.githubusercontent.com/aniket-work/ShootMesh-AI/3aaadfb4cf706bf2729c7105deae15d64faf9da2/images/title_diagram.png)
 
 ## Why this exists
 
@@ -17,17 +17,17 @@ On-location production days combine tight timing, overlapping crafts, and unpred
 3. **A decision ledger** that stores each step with the department credited and the minutes shifted by the chosen action.
 4. **Charts** written to `output/` that summarize how often each department’s proposal won the merge and how cumulative schedule slip evolves across the synthetic day.
 
-![Architecture](https://raw.githubusercontent.com/aniket-work/ShootMesh-AI/main/images/architecture_diagram.png)
+![Architecture](https://raw.githubusercontent.com/aniket-work/ShootMesh-AI/3aaadfb4cf706bf2729c7105deae15d64faf9da2/images/architecture_diagram.png)
 
 ## Architecture at a glance
 
 The pipeline is intentionally linear: incidents arrive from a small scenario list, every agent proposes, the coordinator merges, and the ledger grows. The diagram below mirrors the runtime shape used in `main.py`.
 
-![Sequence](https://raw.githubusercontent.com/aniket-work/ShootMesh-AI/main/images/sequence_diagram.png)
+![Sequence](https://raw.githubusercontent.com/aniket-work/ShootMesh-AI/3aaadfb4cf706bf2729c7105deae15d64faf9da2/images/sequence_diagram.png)
 
 ## Workflow
 
-![Flow](https://raw.githubusercontent.com/aniket-work/ShootMesh-AI/main/images/flow_diagram.png)
+![Flow](https://raw.githubusercontent.com/aniket-work/ShootMesh-AI/3aaadfb4cf706bf2729c7105deae15d64faf9da2/images/flow_diagram.png)
 
 ## Quick start
 
@@ -87,7 +87,7 @@ The agents return Python objects, not strings destined for an LLM. That kept the
 
 The animated GIF below is a stylized walkthrough: a terminal-style segment shows the ASCII summary table, then crossfades into a bar chart of merge outcomes.
 
-![Title animation](https://raw.githubusercontent.com/aniket-work/ShootMesh-AI/main/images/title-animation.gif)
+![Title animation](https://raw.githubusercontent.com/aniket-work/ShootMesh-AI/3aaadfb4cf706bf2729c7105deae15d64faf9da2/images/title-animation.gif)
 
 ## Ethics and limits
 
