@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+.env
+.env.local
+
+# Generated run outputs (regeneratable)
+output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
